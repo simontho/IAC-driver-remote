@@ -1,0 +1,17 @@
+version = {0, 0, 1}
+
+function remote_supported_control_surfaces()
+  local surfaces = {
+    {
+      manufacturer           = "Apple Inc.",
+      model                  = "IAC Driver",
+      source                 = "IAC_Driver.lua",
+      in_ports               = { { description = "IAC Driver Bus 1" } },
+      out_ports              = { { description = "IAC Bus 2", optional = true } },
+      has_keyboard           = false,
+      setup_info_text        = "Route MIDI into IAC Driver Bus 1 on Channel 1 (CC1-20). Registers as a Remote control surface so automation records without override.",
+      setup_user_action_text = "Set MIDI input to IAC Driver Bus 1",
+    },
+  }
+  return surfaces
+end
