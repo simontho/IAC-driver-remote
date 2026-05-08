@@ -45,31 +45,6 @@ every session — mappings are defined once in the file and load automatically.
 
 ---
 
-## Devices covered
-
-| Device | Developer | Mappings | Max CC |
-|---|---|---|---|
-| Combinator | Propellerheads | 66 | CC66 |
-| Thor Polysonic Synthesizer | Propellerheads | 83 | CC83 |
-| Europa | Propellerhead Software | 80 | CC80 |
-| Malstrom Graintable Synthesizer | Propellerheads | 54 | CC54 |
-| Macro Synthesizer | Presteign Sound Labs | 22 | CC22 |
-| SubTractor Analog Synthesizer | Propellerheads | 46 | CC46 |
-| Kong Drum Designer | Propellerheads | 54 | CC54 |
-| Dr.REX Loop Player | Propellerheads | 32 | CC32 |
-| Monotone | Propellerhead Software | 39 | CC39 |
-| Alligator Filter Gate | Propellerheads | 47 | CC47 |
-| Bassline Generator | Propellerhead Software | 35 | CC35 |
-| Chord Sequencer | Propellerhead Software | 36 | CC36 |
-| Dual Arpeggio | Propellerhead Software | 23 | CC23 |
-| EDS06s Drum Synth | Ochen K. | 60 | CC60 |
-| **Total** | | **677** | |
-
-CC slots above each device's max are unassigned and available for per-session right-click →
-Edit Remote Override mappings.
-
----
-
 ## Files
 
 | File | Description |
@@ -135,6 +110,31 @@ Required after any codec install or update. Toggling the surface in Preferences 
 2. The CC assignments defined in this remotemap activate automatically for that device
 3. Arm the target device's track for recording
 4. Play — incoming CC data records as MIDI automation in the sequencer
+
+---
+
+## Devices covered
+
+| Device | Developer | Mappings | Max CC |
+|---|---|---|---|
+| Combinator | Propellerheads | 66 | CC66 |
+| Thor Polysonic Synthesizer | Propellerheads | 83 | CC83 |
+| Europa | Propellerhead Software | 80 | CC80 |
+| Malstrom Graintable Synthesizer | Propellerheads | 54 | CC54 |
+| Macro Synthesizer | Presteign Sound Labs | 22 | CC22 |
+| SubTractor Analog Synthesizer | Propellerheads | 46 | CC46 |
+| Kong Drum Designer | Propellerheads | 54 | CC54 |
+| Dr.REX Loop Player | Propellerheads | 32 | CC32 |
+| Monotone | Propellerhead Software | 39 | CC39 |
+| Alligator Filter Gate | Propellerheads | 47 | CC47 |
+| Bassline Generator | Propellerhead Software | 35 | CC35 |
+| Chord Sequencer | Propellerhead Software | 36 | CC36 |
+| Dual Arpeggio | Propellerhead Software | 23 | CC23 |
+| EDS06s Drum Synth | Ochen K. | 60 | CC60 |
+| **Total** | | **677** | |
+
+CC slots above each device's max are unassigned and available for per-session right-click →
+Edit Remote Override mappings.
 
 ---
 
