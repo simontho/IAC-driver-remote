@@ -71,7 +71,7 @@ every session — mappings are defined once in the file and load automatically.
 Copy `IAC_Driver.lua` and `IAC_Driver.luacodec` to:
 
 ```
-/Library/Application Support/Propellerhead Software/Remote/Codecs/Lua Codecs/Apple Inc./
+/Applications/Reason 13/Contents/Resources/Remote/DefaultCodecs/Lua Codecs/Apple Inc./
 ```
 
 > Both files must be in the same `Apple Inc.` subfolder. Create it if it doesn't exist — the name must match exactly.
@@ -81,7 +81,7 @@ Copy `IAC_Driver.lua` and `IAC_Driver.luacodec` to:
 Copy `Apple_Inc_IAC_Driver.remotemap` to:
 
 ```
-/Library/Application Support/Propellerhead Software/Remote/Maps/Apple Inc./
+/Applications/Reason 13/Contents/Resources/Remote/DefaultMaps/Apple Inc./
 ```
 
 ### Step 4 — Full Reason restart
